@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: options.xml 1664 2011-01-09 15:47:50Z TobiasH87 $ -->
+<data>
+	<import>
+		<categories>
+			<category name="board.index.statsowninfo">
+				<parent>board.index</parent>
+			</category>
+		</categories>
+		<options>
+			<!-- index.general -->
+			<option name="index_statsowninfo_enable">
+				<categoryname>board.index.statsowninfo</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[index_statsowninfo_icon,index_statsowninfo_title,index_statsowninfo_content,index_statsowninfo_enable_smiley,index_statsowninfo_enable_html,index_statsowninfo_enable_bbcodes,index_statsowninfo_link_enable,index_statsowninfo_link]]></enableoptions>
+				<showorder>1</showorder>
+			</option>
+			<option name="index_statsowninfo_icon">
+				<categoryname>board.index.statsowninfo</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>info</defaultvalue>
+				<showorder>2</showorder>
+			</option>
+			<option name="index_statsowninfo_title">
+				<categoryname>board.index.statsowninfo</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>wbb.index.statsowninfo.title</defaultvalue>
+				<showorder>3</showorder>
+			</option>
+			<option name="index_statsowninfo_content">
+				<categoryname>board.index.statsowninfo</categoryname>
+				<optiontype>textarea</optiontype>
+				<defaultvalue>wbb.index.statsowninfo.content</defaultvalue>
+				<showorder>4</showorder>
+			</option>
+			<option name="index_statsowninfo_enable_smiley">
+				<categoryname>board.index.statsowninfo</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<showorder>5</showorder>
+				<options>module_smiley</options>
+			</option>
+			<option name="index_statsowninfo_enable_html">
+				<categoryname>board.index.statsowninfo</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>6</showorder>
+			</option>
+			<option name="index_statsowninfo_enable_bbcodes">
+				<categoryname>board.index.statsowninfo</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<showorder>7</showorder>
+			</option>
+			<option name="index_statsowninfo_link_enable">
+				<categoryname>board.index.statsowninfo</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[index_statsowninfo_link]]></enableoptions>
+				<showorder>8</showorder>
+			</option>
+			<option name="index_statsowninfo_link">
+				<categoryname>board.index.statsowninfo</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>index.php?page=Index</defaultvalue>
+				<showorder>9</showorder>
+			</option>
+			<!-- /index.general -->
+		</options>
+	</import>
+</data>
